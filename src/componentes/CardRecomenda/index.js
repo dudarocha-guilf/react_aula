@@ -4,7 +4,7 @@ function CardRecomenda({titulo, subtitulo, descricao, img}) {
             <h3>{titulo}</h3>
             <h4>{subtitulo}</h4>
             <p>{descricao}</p>
-            <img src="{img}"/>
+            <img src={img}/>
             <button>Saiba mais</button>
         </div>
     )
